@@ -1,0 +1,26 @@
+From e8ff14a6a8c9ad1b4aa54590384ef778a0963d6c Mon Sep 17 00:00:00 2001
+From: Ikey Doherty <michael.i.doherty@intel.com>
+Date: Tue, 5 May 2015 13:33:43 +0100
+Subject: [PATCH] Account for /usr/share/xdg/xfce4
+
+Signed-off-by: Ikey Doherty <michael.i.doherty@intel.com>
+---
+ libxfce4util/xfce-resource.c | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/libxfce4util/xfce-resource.c b/libxfce4util/xfce-resource.c
+index d39e6ad..a7bf6eb 100644
+--- a/libxfce4util/xfce-resource.c
++++ b/libxfce4util/xfce-resource.c
+@@ -219,6 +219,8 @@ _res_init (void)
+    */
+   dirs = _res_getenv ("XDG_CONFIG_DIRS", DEFAULT_XDG_CONFIG_DIRS);
+   _res_split_and_append (dirs, XFCE_RESOURCE_CONFIG);
++  /* Distribution channel data */
++  _res_split_and_append (DATADIR "/xdg", XFCE_RESOURCE_CONFIG);
+   _res_split_and_append (SYSCONFDIR "/xdg", XFCE_RESOURCE_CONFIG);
+ 
+   /*
+-- 
+1.9.1
+
