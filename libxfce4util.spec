@@ -4,7 +4,7 @@
 #
 Name     : libxfce4util
 Version  : 4.12.1
-Release  : 13
+Release  : 14
 URL      : http://archive.xfce.org/src/xfce/libxfce4util/4.12/libxfce4util-4.12.1.tar.bz2
 Source0  : http://archive.xfce.org/src/xfce/libxfce4util/4.12/libxfce4util-4.12.1.tar.bz2
 Summary  : Utility library for the Xfce 4 desktop environment
@@ -47,6 +47,7 @@ Summary: dev components for the libxfce4util package.
 Group: Development
 Requires: libxfce4util-lib
 Requires: libxfce4util-bin
+Provides: libxfce4util-devel
 
 %description dev
 dev components for the libxfce4util package.
@@ -81,10 +82,19 @@ locales components for the libxfce4util package.
 %patch1 -p1
 
 %build
+export LANG=C
+export CFLAGS="$CFLAGS -Os -ffunction-sections "
+export FCFLAGS="$CFLAGS -Os -ffunction-sections "
+export FFLAGS="$CFLAGS -Os -ffunction-sections "
+export CXXFLAGS="$CXXFLAGS -Os -ffunction-sections "
 %configure --disable-static
-make V=1 %{?_smp_mflags}
+make V=1  %{?_smp_mflags}
 
 %check
+export LANG=C
+export http_proxy=http://127.0.0.1:9/
+export https_proxy=http://127.0.0.1:9/
+export no_proxy=localhost
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
