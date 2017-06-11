@@ -1,3 +1,184 @@
+commit 54718ec9fea26192b86cf777f33b9a4ba6c795c9
+Author: Eric Koegel <eric.koegel@gmail.com>
+Date:   Sun Jun 11 16:59:59 2017 +0300
+
+    Add xfce_kiosk_get_type to abi symbols
+    
+    This was added when we turned kiosk into a GObject.
+
+commit f8e35f0889ad9c7bf6a6ccacce1592a4f0060cef
+Author: Eric Koegel <eric.koegel@gmail.com>
+Date:   Fri Jul 8 10:02:27 2016 +0300
+
+    Add support for GOBJECT-INTROSPECTION (Bug #12159)
+    
+    GOjbect Introspection allows various other languages to automatically
+    generate bindings they can use. For details see:
+    https://wiki.gnome.org/action/show/Projects/GObjectIntrospection
+    
+    To support this, we need to add a gobject and introspection
+    dependency. The introspection one is optional and it is what
+    determines if the libxfce4util-1.0 gir is created.
+    Additionally, the Kiosk was converted to a GObject to better
+    work with this method of use, but retains the exact same
+    functionality externally.
+    
+    Signed-off-by: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+
+commit 47db2f8fb09783cc04c728c76fc762d383da2689
+Author: Anonymous <noreply@xfce.org>
+Date:   Fri Jan 20 18:30:25 2017 +0100
+
+    I18n: Update translation da (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit f3a900c1b9ed629fcca45a9e7c4ace4189033062
+Author: Anonymous <noreply@xfce.org>
+Date:   Fri Dec 9 00:30:16 2016 +0100
+
+    I18n: Update translation lt (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit e65bb433e89377bd8d416f94391c290a74236e2f
+Author: Anonymous <noreply@xfce.org>
+Date:   Tue May 3 12:30:34 2016 +0200
+
+    I18n: Update translation bg (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit ad289205aba978df818cfe04444419590244babb
+Author: Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>
+Date:   Mon May 2 00:30:29 2016 +0200
+
+    I18n: Update translation ca (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 186cec8047d3ee60a2666c1941f0edcb832f77dc
+Author: Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>
+Date:   Sat Apr 30 12:30:30 2016 +0200
+
+    I18n: Update translation ca (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit bd5da98634432e419960b5c531110f4496ceeae9
+Author: Elishai Eliyahu <e1907@mm.st>
+Date:   Mon Mar 14 12:30:14 2016 +0100
+
+    I18n: Update translation he (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 62da63c59624e7cc7380c6fa88f5f716b2f15818
+Author: enolp <enolp@softastur.org>
+Date:   Sun Nov 15 00:30:37 2015 +0100
+
+    I18n: Update translation ast (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 77abdf9041ef9ff67c0886b5bacf35de155c5917
+Author: Xosé <xosecalvo@gmail.com>
+Date:   Sat Sep 19 00:30:33 2015 +0200
+
+    I18n: Update translation gl (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 39b796e0a239e77c4ea3d87910080be91c88e51b
+Author: Påvel Nicklasson <pavelnicklasson@bahnhof.se>
+Date:   Mon Jul 20 00:30:42 2015 +0200
+
+    I18n: Update translation sv (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 53b713c9f170a6de6c007d4999e10e56348566cc
+Author: Påvel Nicklasson <pavelnicklasson@bahnhof.se>
+Date:   Wed Jun 3 18:30:40 2015 +0200
+
+    I18n: Update translation sv (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 09055889f2825972283c6968bb266bfd880e6d02
+Author: Anonymous <noreply@xfce.org>
+Date:   Thu Apr 23 12:30:16 2015 +0200
+
+    I18n: Update translation lt (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 3a02ee17ca8bd43bc1f5c959e277a65a31555777
+Author: Ivica  Kolić <ikoli@yahoo.com>
+Date:   Thu Mar 19 06:30:15 2015 +0100
+
+    I18n: Update translation hr (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit fa04406c294582a1a546b3e8565ad611a3590c03
+Author: Colin Watson <cjwatson@canonical.com>
+Date:   Tue Mar 15 15:15:04 2011 +0000
+
+    Fix abicheck to handle ppc64 architecture
+    
+    According to Alan Modra, the PowerPC64 ABI defines function symbols on their
+    OPD entry, in the .opd section which is part of the data segment; so
+    functions on this architecture have symbol type D in nm.
+    
+    The adjusted regex is slightly more accurate than the old one, which matched
+    anything containing " T", "R", or "G ".  Using a bracket expression seems to
+    better match the likely intent of this regex.
+
+commit 5b9fcc2f5c27ab8d213297a1f9cac132633162a3
+Author: Landry Breuil <landry@xfce.org>
+Date:   Sat Feb 28 17:05:46 2015 +0100
+
+    add newline
+
+commit 661c950e344478eb8a70e9227248b3da990810d9
+Author: Landry Breuil <landry@xfce.org>
+Date:   Sat Feb 28 17:05:40 2015 +0100
+
+    post release tag bump
+
+commit 38f9190be0a77ac5787aca84bf4cc68913b91f5b
+Author: Landry Breuil <landry@xfce.org>
+Date:   Sat Feb 28 17:03:55 2015 +0100
+
+    Release 4.12.1, setting xfce_version_string to 4.12.
+    
+    Thx to Olivier Duchateau for spotting it.
+
 commit 0ddce9680165460cb0010804d2d8ade4166d53cd
 Author: Landry Breuil <landry@xfce.org>
 Date:   Sat Feb 28 16:00:01 2015 +0100
@@ -1882,7 +2063,7 @@ Date:   Sat Jul 25 09:34:34 2009 +0000
 
     2009-07-25  Gabor Kelemen  <kelemeng@gnome.hu>
     
-    	* hu.po: Translation updated.
+            * hu.po: Translation updated.
     
     (Old svn revision: 30387)
 
@@ -1916,8 +2097,8 @@ Date:   Sat Jun 13 17:02:32 2009 +0000
 
     2009-06-13  Gabor Kelemen  <kelemeng@gnome.hu>
     
-    	* hu.po: Translation added
-    	* LINGUAS: hu added
+            * hu.po: Translation added
+            * LINGUAS: hu added
     
     
     (Old svn revision: 30005)
@@ -2016,22 +2197,22 @@ commit edcb6f2336a42ee9b6158fb688e7833d5c3734f5
 Author: Masato Hashimoto <cabezon.hashimoto@gmail.com>
 Date:   Thu Mar 19 15:02:17 2009 +0000
 
-    	* ja.po: Japanese translation update (Masato Hashimoto)
-    	* ja.po: Japanese translation update (Masato Hashimoto)
-    	* ja.po: Japanese translation update (Masato Hashimoto)
-    	* ja.po: Japanese translation update (Masato Hashimoto)
-    	* ja.po: Japanese translation update (Masato Hashimoto)
-    	* ja.po: Japanese translation update (Masato Hashimoto)
-    	* ja.po: Japanese translation update (Masato Hashimoto)
-    	* ja.po: Japanese translation update (Masato Hashimoto)
-    	* ja.po: Japanese translation update (Masato Hashimoto)
-    	* ja.po: Japanese translation update (Masato Hashimoto)
-    	* ja.po: Japanese translation update (Masato Hashimoto)
-    	* ja.po: Japanese translation update (Masato Hashimoto)
-    	* ja.po: Japanese translation update (Masato Hashimoto)
-    	* ja.po: Japanese translation update (Masato Hashimoto)
-    	* ja.po: Japanese translation update (Masato Hashimoto)
-    	* ja.po: Japanese translation update (Masato Hashimoto)
+            * ja.po: Japanese translation update (Masato Hashimoto)
+            * ja.po: Japanese translation update (Masato Hashimoto)
+            * ja.po: Japanese translation update (Masato Hashimoto)
+            * ja.po: Japanese translation update (Masato Hashimoto)
+            * ja.po: Japanese translation update (Masato Hashimoto)
+            * ja.po: Japanese translation update (Masato Hashimoto)
+            * ja.po: Japanese translation update (Masato Hashimoto)
+            * ja.po: Japanese translation update (Masato Hashimoto)
+            * ja.po: Japanese translation update (Masato Hashimoto)
+            * ja.po: Japanese translation update (Masato Hashimoto)
+            * ja.po: Japanese translation update (Masato Hashimoto)
+            * ja.po: Japanese translation update (Masato Hashimoto)
+            * ja.po: Japanese translation update (Masato Hashimoto)
+            * ja.po: Japanese translation update (Masato Hashimoto)
+            * ja.po: Japanese translation update (Masato Hashimoto)
+            * ja.po: Japanese translation update (Masato Hashimoto)
     
     (Old svn revision: 29675)
 
@@ -2146,17 +2327,17 @@ Author: Alexander Toresson <alexander.toresson@gmail.com>
 Date:   Mon Feb 9 00:43:54 2009 +0000
 
     xfprint/trunk/po:
-    	* sv.po: Swedish translation update (Daniel Nylander)
+            * sv.po: Swedish translation update (Daniel Nylander)
     xfce4-settings/trunk/po:
-    	* sv.po: Swedish translation update (Daniel Nylander)
+            * sv.po: Swedish translation update (Daniel Nylander)
     xfce4-mixer/trunk/po:
-    	* sv.po: Swedish translation update (Daniel Nylander)
+            * sv.po: Swedish translation update (Daniel Nylander)
     squeeze/trunk/po:
-    	* sv.po: Swedish translation update (Daniel Nylander)
+            * sv.po: Swedish translation update (Daniel Nylander)
     libxfce4util/trunk/po:
-    	* sv.po: Swedish translation update (Daniel Nylander)
+            * sv.po: Swedish translation update (Daniel Nylander)
     libxfce4ui/trunk/po:
-    	* sv.po: Swedish translation update (Daniel Nylander)
+            * sv.po: Swedish translation update (Daniel Nylander)
     
     (Old svn revision: 29473)
 
@@ -2244,7 +2425,7 @@ commit 1e5ef9dff34e378d2809edbaa5390152d76d1d52
 Author: Per Kongstad <p_kongstad@op.pl>
 Date:   Sat Jan 24 21:03:15 2009 +0000
 
-    	* da.po: Danish translation update 4.5.93 (Per Kongstad)
+            * da.po: Danish translation update 4.5.93 (Per Kongstad)
     
     
     
@@ -2284,14 +2465,14 @@ commit bac554992e240e0d83981a354c8efc21f50e8159
 Author: Per Kongstad <p_kongstad@op.pl>
 Date:   Thu Jan 22 19:20:58 2009 +0000
 
-    	* da.po: Danish tranlation updated (Per Kongstad)
+            * da.po: Danish tranlation updated (Per Kongstad)
     
     
     
     
     
     
-     	* da.po: Danish translation update (Per Kongstad)
+            * da.po: Danish translation update (Per Kongstad)
     
     
     
@@ -2322,23 +2503,23 @@ Author: Alexander Toresson <alexander.toresson@gmail.com>
 Date:   Sun Jan 18 12:32:33 2009 +0000
 
     xfce4-session/trunk/po:
-    	* sv.po: Swedish translation update (Daniel Nylander)
+            * sv.po: Swedish translation update (Daniel Nylander)
     xfce4-panel/trunk/po:
-    	* sv.po: Swedish translation update (Daniel Nylander)
+            * sv.po: Swedish translation update (Daniel Nylander)
     xfce4-settings/trunk/po:
-    	* sv.po: Swedish translation update (Daniel Nylander)
+            * sv.po: Swedish translation update (Daniel Nylander)
     libxfce4menu/trunk/po:
-    	* sv.po: Swedish translation update (Daniel Nylander)
+            * sv.po: Swedish translation update (Daniel Nylander)
     libxfce4util/trunk/po:
-    	* sv.po: Swedish translation update (Daniel Nylander)
+            * sv.po: Swedish translation update (Daniel Nylander)
     xfwm4/trunk/po:
-    	* sv.po: Swedish translation update (Daniel Nylander)
+            * sv.po: Swedish translation update (Daniel Nylander)
     xfce4-appfinder/trunk/po:
-    	* sv.po: Swedish translation update (Daniel Nylander)
+            * sv.po: Swedish translation update (Daniel Nylander)
     xfconf/trunk/po:
-    	* sv.po: Swedish translation update (Daniel Nylander)
+            * sv.po: Swedish translation update (Daniel Nylander)
     libxfcegui4/trunk/po:
-    	* sv.po: Swedish translation update (Daniel Nylander)
+            * sv.po: Swedish translation update (Daniel Nylander)
     
     (Old svn revision: 29271)
 
@@ -2405,30 +2586,27 @@ commit 551aed8a087f07d3ad26ec43fe2564b5fa186168
 Author: Alexander Toresson <alexander.toresson@gmail.com>
 Date:   Tue Dec 9 23:22:24 2008 +0000
 
-    	* sv.po: Swedish translation update (Daniel Nylander)
+            * sv.po: Swedish translation update (Daniel Nylander)
     
     
     
     
     
     
-     	* sv.po: Swedish translation update (Daniel Nylander)
+            * sv.po: Swedish translation update (Daniel Nylander)
     
     
-     	* sv.po, LINGUAS: Swedish translation added (Daniel Nylander)
-    
-    
-    
-     	* sv.po, LINGUAS: Swedish translation added (Daniel Nylander)
+            * sv.po, LINGUAS: Swedish translation added (Daniel Nylander)
     
     
     
-     	* sv.po, LINGUAS: Swedish translation added (Daniel Nylander)
-    
-     	* sv.po, LINGUAS: Swedish translation added (Daniel Nylander)
+            * sv.po, LINGUAS: Swedish translation added (Daniel Nylander)
     
     
     
+            * sv.po, LINGUAS: Swedish translation added (Daniel Nylander)
+    
+            * sv.po, LINGUAS: Swedish translation added (Daniel Nylander)
     
     
     
@@ -2438,13 +2616,16 @@ Date:   Tue Dec 9 23:22:24 2008 +0000
     
     
     
-     	* sv.po: Swedish translation update (Daniel Nylander)
-    
-     	* sv.po: Swedish translation update (Daniel Nylander)
     
     
     
-     	* sv.po: Swedish translation update (Daniel Nylander)
+            * sv.po: Swedish translation update (Daniel Nylander)
+    
+            * sv.po: Swedish translation update (Daniel Nylander)
+    
+    
+    
+            * sv.po: Swedish translation update (Daniel Nylander)
     
     
     (Old svn revision: 29000)
@@ -2591,7 +2772,7 @@ commit 8746857b79b920b3d7d968e15c01116fb07e57d5
 Author: Jannis Pohlmann <jannis@xfce.org>
 Date:   Fri Sep 12 20:23:01 2008 +0000
 
-    	* NEWS: Fix typo.
+            * NEWS: Fix typo.
     
     (Old svn revision: 27843)
 
@@ -2599,7 +2780,7 @@ commit 3148e0aaeea4749c186666be85afc94ff3e469be
 Author: Jannis Pohlmann <jannis@xfce.org>
 Date:   Fri Sep 12 20:14:07 2008 +0000
 
-    	* NEWS: Updated for the alpha release.
+            * NEWS: Updated for the alpha release.
     
     (Old svn revision: 27842)
 
@@ -2674,7 +2855,7 @@ commit b11c11aed34a4b4cd114f1cdda759b0f281cf774
 Author: Jannis Pohlmann <jannis@xfce.org>
 Date:   Thu Sep 4 16:16:37 2008 +0000
 
-    	* autogen.sh: Add git svn revision versioning support.
+            * autogen.sh: Add git svn revision versioning support.
     
     (Old svn revision: 27651)
 
@@ -2711,12 +2892,12 @@ commit 59136837be1e19d2b83bfa601c014c76ec32040b
 Author: Jannis Pohlmann <jannis@xfce.org>
 Date:   Sun Jun 29 16:51:33 2008 +0000
 
-    	* libxfce4util/xfce-resource.c: Add _res_remove_trailing_slashes().
-    	  It is used to support _res_remove_duplicates() in finding paths
-    	  which appear multiple times but in fact refer to the same
-    	  directory (like e.g. /usr/share/// and /usr/share). Use
-    	  g_build_path() in g_resource_lookup() and g_resource_lookup_all()
-    	  instead of concatenating with "%s/%s".
+            * libxfce4util/xfce-resource.c: Add _res_remove_trailing_slashes().
+              It is used to support _res_remove_duplicates() in finding paths
+              which appear multiple times but in fact refer to the same
+              directory (like e.g. /usr/share/// and /usr/share). Use
+              g_build_path() in g_resource_lookup() and g_resource_lookup_all()
+              instead of concatenating with "%s/%s".
     
     (Old svn revision: 27182)
 
@@ -2831,8 +3012,8 @@ commit 5e3625e2a3123e8dc3afc32138d893df4eede1c9
 Author: Mike Massonnet <mmassonnet@xfce.org>
 Date:   Sat Oct 6 17:00:21 2007 +0000
 
-    	* libexo, libxfce4util, xfcalendar, xfce4-panel, xfce4-session, xfce-mcs-plugins,
-    	  xfdesktop, xfprint, xfwm4: Add Latvian translation.
+            * libexo, libxfce4util, xfcalendar, xfce4-panel, xfce4-session, xfce-mcs-plugins,
+              xfdesktop, xfprint, xfwm4: Add Latvian translation.
     
     
     (Old svn revision: 26127)
@@ -2896,9 +3077,9 @@ commit 01038cdf6eede0f47f1a1154034cd84ce378f3fe
 Author: Benedikt Meurer <benny@xfce.org>
 Date:   Wed May 9 18:05:18 2007 +0000
 
-    2007-05-09	Benedikt Meurer <benny@xfce.org>
+    2007-05-09      Benedikt Meurer <benny@xfce.org>
     
-    	* INSTALL, configure.in.in: Update for latest autoconf.
+            * INSTALL, configure.in.in: Update for latest autoconf.
     
     
     
@@ -2909,10 +3090,10 @@ commit fb325b52f5c45552a85f42036bb6809531e8bffa
 Author: Benedikt Meurer <benny@xfce.org>
 Date:   Wed May 9 17:15:17 2007 +0000
 
-    2007-05-09	Benedikt Meurer <benny@xfce.org>
+    2007-05-09      Benedikt Meurer <benny@xfce.org>
     
-    	* libxfce4util/debug.h: Add support for function names in debug
-    	  messages on Solarils. Bug #3090.
+            * libxfce4util/debug.h: Add support for function names in debug
+              messages on Solarils. Bug #3090.
     
     
     
@@ -2988,11 +3169,11 @@ commit 2f723a2d0ae457a8b61ecb34d024b889c8a87c2a
 Author: Benedikt Meurer <benny@xfce.org>
 Date:   Mon Feb 12 18:35:11 2007 +0000
 
-    2007-02-12	Benedikt Meurer <benny@xfce.org>
+    2007-02-12      Benedikt Meurer <benny@xfce.org>
     
-    	* libxfce4util/xfce-rc-config.c, libxfce4util/xfce-rc.c,
-    	  libxfce4util/xfce-rc-simple.c: Fix invalid g_slice_free1() in
-    	  XfceRc code. Bug #2854.
+            * libxfce4util/xfce-rc-config.c, libxfce4util/xfce-rc.c,
+              libxfce4util/xfce-rc-simple.c: Fix invalid g_slice_free1() in
+              XfceRc code. Bug #2854.
     
     
     
@@ -3043,10 +3224,10 @@ commit b488b8b4e35141a58beb0e3981f083579cd28bdc
 Author: Benedikt Meurer <benny@xfce.org>
 Date:   Mon Jan 22 17:08:05 2007 +0000
 
-    2007-01-22	Benedikt Meurer <benny@xfce.org>
+    2007-01-22      Benedikt Meurer <benny@xfce.org>
     
-    	* libxfce4util/xfce-rc-simple.c(_xfce_rc_simple_delete_group): Fix
-    	  buglet when deleting groups.
+            * libxfce4util/xfce-rc-simple.c(_xfce_rc_simple_delete_group): Fix
+              buglet when deleting groups.
     
     
     
@@ -3057,10 +3238,10 @@ commit ecf138bbfa70431e6f58ef3179dfa8feeff5a9af
 Author: Benedikt Meurer <benny@xfce.org>
 Date:   Mon Jan 22 14:12:39 2007 +0000
 
-    2007-01-22	Benedikt Meurer <benny@xfce.org>
+    2007-01-22      Benedikt Meurer <benny@xfce.org>
     
-    	* libxfce4util/: Do not use GMemChunk for XfceRc module as that leaks
-    	  all of its memory starting with GLib 2.10. Bug #2427.
+            * libxfce4util/: Do not use GMemChunk for XfceRc module as that leaks
+              all of its memory starting with GLib 2.10. Bug #2427.
     
     
     
@@ -3084,9 +3265,9 @@ commit f8b5e5099598fe8529eb2d4692d7ef7be939a177
 Author: Benedikt Meurer <benny@xfce.org>
 Date:   Sat Jan 20 09:57:26 2007 +0000
 
-    2007-01-20	Benedikt Meurer <benny@xfce.org>
+    2007-01-20      Benedikt Meurer <benny@xfce.org>
     
-    	* configure.in.in: Post-release version bump.
+            * configure.in.in: Post-release version bump.
     
     
     
@@ -3097,12 +3278,12 @@ commit e20e8c82fe1772ba2ca4eef98eefd3a4557df5bb
 Author: Benedikt Meurer <benny@xfce.org>
 Date:   Sat Jan 20 09:55:09 2007 +0000
 
-    2007-01-20	Benedikt Meurer <benny@xfce.org>
+    2007-01-20      Benedikt Meurer <benny@xfce.org>
     
-    	* === Released 4.4.0 ===
-    	* NEWS, configure.in.in: Bump version.
-    	* po/*.po: Update Project-Id-Version.
-    	* THANKS, Makefile.am: Add translator credits.
+            * === Released 4.4.0 ===
+            * NEWS, configure.in.in: Bump version.
+            * po/*.po: Update Project-Id-Version.
+            * THANKS, Makefile.am: Add translator credits.
     
     
     
@@ -3155,7 +3336,7 @@ Author: Maximilian Schleiss <maxschleiss@solnet.ch>
 Date:   Wed Nov 15 12:43:45 2006 +0000
 
     Updated the Spanish translations by Rudy Godoy for the following packages
-    	xfce4-panel; xfce4-session
+            xfce4-panel; xfce4-session
     Modified the description text of the translation files for fr cy and es
     Fixed typo in French translation of thunar
     
@@ -3173,9 +3354,9 @@ commit 932795210124d2b5b56b59963110b9610d404bb4
 Author: Benedikt Meurer <benny@xfce.org>
 Date:   Sat Nov 4 12:20:26 2006 +0000
 
-    2006-11-04	Benedikt Meurer <benny@xfce.org>
+    2006-11-04      Benedikt Meurer <benny@xfce.org>
     
-    	* configure.in.in: Post-release version bump.
+            * configure.in.in: Post-release version bump.
     
     
     
@@ -3186,12 +3367,12 @@ commit 7bad55299e4ed7022685cf65cf9de3da76a4df00
 Author: Benedikt Meurer <benny@xfce.org>
 Date:   Sat Nov 4 12:18:37 2006 +0000
 
-    2006-11-04	Benedikt Meurer <benny@xfce.org>
+    2006-11-04      Benedikt Meurer <benny@xfce.org>
     
-    	* === Released 4.3.99.2 ===
-    	* NEWS, configure.in.in: Bump version.
-    	* docs/tmpl/xfce-miscutils.sgml: Regenerate API docs.
-    	* po/*.po: Update Project-Id-Version.
+            * === Released 4.3.99.2 ===
+            * NEWS, configure.in.in: Bump version.
+            * docs/tmpl/xfce-miscutils.sgml: Regenerate API docs.
+            * po/*.po: Update Project-Id-Version.
     
     
     
@@ -3263,9 +3444,9 @@ commit 2aa83628608beb315a3de1351e30ada6c89ceaea
 Author: Benedikt Meurer <benny@xfce.org>
 Date:   Sat Sep 2 14:12:22 2006 +0000
 
-    2006-09-02	Benedikt Meurer <benny@xfce.org>
+    2006-09-02      Benedikt Meurer <benny@xfce.org>
     
-    	* configure.in.in: Post-release version bump.
+            * configure.in.in: Post-release version bump.
     
     
     
@@ -3276,12 +3457,12 @@ commit ce568cb54e1875ed575047a6e719961bae30e222
 Author: Benedikt Meurer <benny@xfce.org>
 Date:   Sat Sep 2 14:10:53 2006 +0000
 
-    2006-09-02	Benedikt Meurer <benny@xfce.org>
+    2006-09-02      Benedikt Meurer <benny@xfce.org>
     
-    	* === Released 4.3.99.1 ===
-    	* configure.in.in: Do not set gcc specific flags unless gcc is used.
-    	* NEWS, configure.in.in: Bump version.
-    	* po/*.po: Update Project-Id-Version.
+            * === Released 4.3.99.1 ===
+            * configure.in.in: Do not set gcc specific flags unless gcc is used.
+            * NEWS, configure.in.in: Bump version.
+            * po/*.po: Update Project-Id-Version.
     
     
     
@@ -3292,10 +3473,10 @@ commit b6775ff67295451c26c419d9e8cf743e26897bf0
 Author: Benedikt Meurer <benny@xfce.org>
 Date:   Wed Aug 30 10:20:42 2006 +0000
 
-    2006-08-30	Benedikt Meurer <benny@xfce.org>
+    2006-08-30      Benedikt Meurer <benny@xfce.org>
     
-    	* libxfce4util/xfce-generics.h: Enable compilation with Sun Studio
-    	  Pro. Bug #1851.
+            * libxfce4util/xfce-generics.h: Enable compilation with Sun Studio
+              Pro. Bug #1851.
     
     
     
@@ -3346,10 +3527,10 @@ commit cb21c17899126efbb7f28ac5c9565e328fb503f2
 Author: Benedikt Meurer <benny@xfce.org>
 Date:   Sat Aug 12 16:04:34 2006 +0000
 
-    2006-08-12	Benedikt Meurer <benny@xfce.org>
+    2006-08-12      Benedikt Meurer <benny@xfce.org>
     
-    	* libxfce4util/xfce-generics.h(xfce_stack_top): Enable compilation
-    	  with compilers other than gcc. Bug #1851.
+            * libxfce4util/xfce-generics.h(xfce_stack_top): Enable compilation
+              with compilers other than gcc. Bug #1851.
     
     
     
@@ -3360,9 +3541,9 @@ commit 5de23a597a3c67ade5107de32340a4b93b147e38
 Author: Benedikt Meurer <benny@xfce.org>
 Date:   Mon Jul 10 10:46:26 2006 +0000
 
-    2006-07-10	Benedikt Meurer <benny@xfce.org>
+    2006-07-10      Benedikt Meurer <benny@xfce.org>
     
-    	* configure.in.in: Post-release version bump.
+            * configure.in.in: Post-release version bump.
     
     
     
@@ -3373,11 +3554,11 @@ commit a518e6c57906574f0b5833a1f2ab9541708791b2
 Author: Benedikt Meurer <benny@xfce.org>
 Date:   Mon Jul 10 10:44:22 2006 +0000
 
-    2006-07-10	Benedikt Meurer <benny@xfce.org>
+    2006-07-10      Benedikt Meurer <benny@xfce.org>
     
-    	* === Released 4.3.90.2 ===
-    	* configure.in.in: Bump version.
-    	* po/*.po: Update Project-Id-Version.
+            * === Released 4.3.90.2 ===
+            * configure.in.in: Bump version.
+            * po/*.po: Update Project-Id-Version.
     
     
     
@@ -3543,7 +3724,7 @@ Date:   Thu Apr 20 13:59:44 2006 +0000
 
     2006-04-20  Maxim Dziumanenko <mvd@mylinux.ua>
     
-    	* Updated Ukrainian translation.
+            * Updated Ukrainian translation.
     
     
     
@@ -3563,11 +3744,11 @@ commit 5b2f234c473dbf296b23e4be52281b955fbfdda3
 Author: Benedikt Meurer <benny@xfce.org>
 Date:   Wed Apr 19 19:19:03 2006 +0000
 
-    2006-04-19	Benedikt Meurer <benny@xfce.org>
+    2006-04-19      Benedikt Meurer <benny@xfce.org>
     
-    	* libxfce4util/xfce-rc-simple.c(_xfce_rc_simple_delete_entry): Fix
-    	  deletion of entries from an XfceRc object, as pointed out by Juha
-    	  Kautto <kautto.juha@kolumbus.fi>.
+            * libxfce4util/xfce-rc-simple.c(_xfce_rc_simple_delete_entry): Fix
+              deletion of entries from an XfceRc object, as pointed out by Juha
+              Kautto <kautto.juha@kolumbus.fi>.
     
     
     
@@ -3587,9 +3768,9 @@ commit 6f91ddba10c7c71780a1e58cbab496f8b19534d5
 Author: Benedikt Meurer <benny@xfce.org>
 Date:   Tue Apr 18 21:46:38 2006 +0000
 
-    2006-04-18	Benedikt Meurer <benny@xfce.org>
+    2006-04-18      Benedikt Meurer <benny@xfce.org>
     
-    	* po/de.po: Add german translation of the GPL license text.
+            * po/de.po: Add german translation of the GPL license text.
     
     
     
@@ -3600,13 +3781,13 @@ commit 6dfd00b8d64c9023c3452445dee9da4e0d0b51a9
 Author: Benedikt Meurer <benny@xfce.org>
 Date:   Tue Apr 18 21:35:22 2006 +0000
 
-    2006-04-18	Benedikt Meurer <benny@xfce.org>
+    2006-04-18      Benedikt Meurer <benny@xfce.org>
     
-    	* libxfce4util/Makefile.am, libxfce4util/libxfce4util.symbols: Fix typos
-    	  introduced with the previous commit.
-    	* libxfce4util/, po/, Makefile.am, configure.in.in, autogen.sh: Add i18n
-    	  support. This way the software licenses can be translated.
-    	* docs/: Update the API documentation.
+            * libxfce4util/Makefile.am, libxfce4util/libxfce4util.symbols: Fix typos
+              introduced with the previous commit.
+            * libxfce4util/, po/, Makefile.am, configure.in.in, autogen.sh: Add i18n
+              support. This way the software licenses can be translated.
+            * docs/: Update the API documentation.
     
     
     
@@ -3617,17 +3798,17 @@ commit 447292095e5cef73ee8eb5e2856ddf85b173d769
 Author: Benedikt Meurer <benny@xfce.org>
 Date:   Tue Apr 18 19:35:58 2006 +0000
 
-    2006-04-18	Benedikt Meurer <benny@xfce.org>
+    2006-04-18      Benedikt Meurer <benny@xfce.org>
     
-    	* libxfce4util/libxfce4util-config.{c,h.in}, libxfce4util/Makefile.am,
-    	  libxfce4util/{BSD,GPL,LGPL}, libxfce4util/licenses-texts.c,
-    	  libxfce4util/licenses-to-c.sh: Use the short versions of the GPL/LGPL
-    	  license texts and move them to libxfce4util-config.
-    	* libxfce4util/, configure.in.in: Apply outstanding patch to fix various
-    	  memory leaks, reduce PLT entries and cleanup source code.
-    	* libxfce4util/xfce-i18n.{c,h}, TODO: Turn xfce_textdomain() into a
-    	  function.
-    	* docs/: Update the API documentation.
+            * libxfce4util/libxfce4util-config.{c,h.in}, libxfce4util/Makefile.am,
+              libxfce4util/{BSD,GPL,LGPL}, libxfce4util/licenses-texts.c,
+              libxfce4util/licenses-to-c.sh: Use the short versions of the GPL/LGPL
+              license texts and move them to libxfce4util-config.
+            * libxfce4util/, configure.in.in: Apply outstanding patch to fix various
+              memory leaks, reduce PLT entries and cleanup source code.
+            * libxfce4util/xfce-i18n.{c,h}, TODO: Turn xfce_textdomain() into a
+              function.
+            * docs/: Update the API documentation.
     
     
     
@@ -3639,14 +3820,14 @@ commit a13e69d5aa01920deb36b5608a361127b92b5591
 Author: Benedikt Meurer <benny@xfce.org>
 Date:   Sun Apr 16 08:09:03 2006 +0000
 
-    2006-04-16	Benedikt Meurer <benny@xfce.org>
+    2006-04-16      Benedikt Meurer <benny@xfce.org>
     
-    	* === Released 4.3.90.1 ===
-    	* configure.in.in: Bump version.
-    	* configure.in.in: Depend on GObject >= 2.6.0.
-    	* configure.in.in: Do not add revision to version unless the tag is svn.
-    	* libxfce4util.spec.in: Update RPM spec file.
-    	* AUTHORS: Add Olivier Fourdan to the authors list.
+            * === Released 4.3.90.1 ===
+            * configure.in.in: Bump version.
+            * configure.in.in: Depend on GObject >= 2.6.0.
+            * configure.in.in: Do not add revision to version unless the tag is svn.
+            * libxfce4util.spec.in: Update RPM spec file.
+            * AUTHORS: Add Olivier Fourdan to the authors list.
     
     
     
@@ -3657,10 +3838,10 @@ commit bb7ae0d1ee18cb1e12c58a55a59fae75c2ab7b2c
 Author: Benedikt Meurer <benny@xfce.org>
 Date:   Sat Apr 15 22:45:18 2006 +0000
 
-    2006-04-16	Benedikt Meurer <benny@xfce.org>
+    2006-04-16      Benedikt Meurer <benny@xfce.org>
     
-    	* libxfce4util/xfce-resource.c(_res_split_and_append): Be sure to strip
-    	  off invalid paths from XDG_DATA_DIRS and XDG_CONFIG_DIRS.
+            * libxfce4util/xfce-resource.c(_res_split_and_append): Be sure to strip
+              off invalid paths from XDG_DATA_DIRS and XDG_CONFIG_DIRS.
     
     
     
@@ -3689,10 +3870,10 @@ commit 5284a3ad587976d1f250ac7379e506233718536c
 Author: Benedikt Meurer <benny@xfce.org>
 Date:   Sun Mar 26 09:59:34 2006 +0000
 
-    2006-03-26	Benedikt Meurer <benny@xfce.org>
+    2006-03-26      Benedikt Meurer <benny@xfce.org>
     
-    	* libxfce4util/xfce-rc-simple.c(simple_escape): Same for leading
-    	  whitespace.
+            * libxfce4util/xfce-rc-simple.c(simple_escape): Same for leading
+              whitespace.
     
     
     
@@ -3703,10 +3884,10 @@ commit 743b37ad296e7cf0540dca26b9cb9f733357ea11
 Author: Benedikt Meurer <benny@xfce.org>
 Date:   Sat Mar 25 21:15:52 2006 +0000
 
-    2006-03-25	Benedikt Meurer <benny@xfce.org>
+    2006-03-25      Benedikt Meurer <benny@xfce.org>
     
-    	* libxfce4util/xfce-rc-simple.c: Properly handle trailing whitespace
-    	  when saving string values.
+            * libxfce4util/xfce-rc-simple.c: Properly handle trailing whitespace
+              when saving string values.
     
     
     
@@ -3768,10 +3949,10 @@ commit ba4f507fe3821dc65eb0dba0bdecf2a0396405b2
 Author: Benedikt Meurer <benny@xfce.org>
 Date:   Sat Dec 3 20:12:34 2005 +0000
 
-    2005-12-03	Benedikt Meurer <benny@xfce.org>
+    2005-12-03      Benedikt Meurer <benny@xfce.org>
     
-    	* libxfce4util/i18n.h: Add ngettext(), dngettext() and dcngettext()
-    	  macros for the case that ENABLE_NLS is not defined.
+            * libxfce4util/i18n.h: Add ngettext(), dngettext() and dcngettext()
+              macros for the case that ENABLE_NLS is not defined.
     
     
     
@@ -3868,10 +4049,10 @@ commit c2f3f4c4a9ea1c3f65745bb859d6e75496237d36
 Author: Benedikt Meurer <benny@xfce.org>
 Date:   Wed Aug 31 10:23:42 2005 +0000
 
-    2005-08-31	Benedikt Meurer <benny@xfce.org>
+    2005-08-31      Benedikt Meurer <benny@xfce.org>
     
-    	* Makefile.am: Remove unnecessary extra dist files.
-    	* Makefile.am: Setup automake options properly.
+            * Makefile.am: Remove unnecessary extra dist files.
+            * Makefile.am: Setup automake options properly.
     
     
     
@@ -3882,16 +4063,16 @@ commit e3088d8968f5e5c3039e10371906fead8a21ab11
 Author: Benedikt Meurer <benny@xfce.org>
 Date:   Wed Aug 31 10:19:12 2005 +0000
 
-    2005-08-31	Benedikt Meurer <benny@xfce.org>
+    2005-08-31      Benedikt Meurer <benny@xfce.org>
     
-    	* autogen.sh, configure.in.in: Merge build framework changes from
-    	  libexo.
-    	* COPYING, libxfce4util.spec.in, libxfce4util/*.{c,h}: Change overall
-    	  license to LGPL.
-    	* libxfce4util/*.h: Make sure only libxfce4util/libxfce4util.h can be
-    	  included directly.
-    	* docs/tmpl/*.sgml: Update to newer gtk-doc, which adds stability level
-    	  to the interfaces.
+            * autogen.sh, configure.in.in: Merge build framework changes from
+              libexo.
+            * COPYING, libxfce4util.spec.in, libxfce4util/*.{c,h}: Change overall
+              license to LGPL.
+            * libxfce4util/*.h: Make sure only libxfce4util/libxfce4util.h can be
+              included directly.
+            * docs/tmpl/*.sgml: Update to newer gtk-doc, which adds stability level
+              to the interfaces.
     
     
     
@@ -3902,10 +4083,10 @@ commit 79ffe4d962d7037c43b80c13bbc4826e2d20b446
 Author: Benedikt Meurer <benny@xfce.org>
 Date:   Wed Aug 31 09:58:14 2005 +0000
 
-    2005-08-31	Benedikt Meurer <benny@xfce.org>
+    2005-08-31      Benedikt Meurer <benny@xfce.org>
     
-    	* autogen.sh, configure.in.in: Merge build framework changes from
-    	  libexo.
+            * autogen.sh, configure.in.in: Merge build framework changes from
+              libexo.
     
     
     
@@ -3916,9 +4097,9 @@ commit 09a4ba9a8ac593106b0388957b3652b8e2853bc2
 Author: Benedikt Meurer <benny@xfce.org>
 Date:   Tue Aug 30 13:06:34 2005 +0000
 
-    2005-08-30	Benedikt Meurer <benny@xfce.org>
+    2005-08-30      Benedikt Meurer <benny@xfce.org>
     
-    	* docs/tmpl/*.sgml: Update gtk-doc templates.
+            * docs/tmpl/*.sgml: Update gtk-doc templates.
     
     
     
@@ -4032,13 +4213,13 @@ commit 7d3b826b5320141f23679eb650c8f8016680f44d
 Author: Benedikt Meurer <benny@xfce.org>
 Date:   Wed Feb 2 22:16:16 2005 +0000
 
-    2005-02-02	Benedikt Meurer <benny@xfce.org>
+    2005-02-02      Benedikt Meurer <benny@xfce.org>
     
-    	* libxfce4util/xfce-fileutils.c(xfce_mkdirhier): Make function always
-    	  verify if the directory was actually created or already existed,
-    	  instead of checking for special errno results if mkdir() failed.
-    	  This fixes bug #724 (xfce fails on automounted NFS home-directories).
-    	  All tabs have been expanded to spaces.
+            * libxfce4util/xfce-fileutils.c(xfce_mkdirhier): Make function always
+              verify if the directory was actually created or already existed,
+              instead of checking for special errno results if mkdir() failed.
+              This fixes bug #724 (xfce fails on automounted NFS home-directories).
+              All tabs have been expanded to spaces.
     
     
     (Old svn revision: 918)
@@ -4047,11 +4228,11 @@ commit 098a01b021f9816d1c3dd1e57f9d4f777fcff3b5
 Author: Benedikt Meurer <benny@xfce.org>
 Date:   Wed Jan 26 22:07:26 2005 +0000
 
-    2005-01-26	Benedikt Meurer <benny@xfce.org>
+    2005-01-26      Benedikt Meurer <benny@xfce.org>
     
-    	* autogen.sh: Send all command line parameters to xdt-autogen.
-    	* gtk-doc.make: Removed, as its autogenerated by gtkdocize. Although,
-    	  the autogenerated version lacks a `gmake dist' fix.
+            * autogen.sh: Send all command line parameters to xdt-autogen.
+            * gtk-doc.make: Removed, as its autogenerated by gtkdocize. Although,
+              the autogenerated version lacks a `gmake dist' fix.
     
     
     (Old svn revision: 917)
@@ -4060,18 +4241,18 @@ commit a956014ea3a08accb8eeb5c09e95a3e737af0ca6
 Author: Benedikt Meurer <benny@xfce.org>
 Date:   Wed Jan 26 21:18:36 2005 +0000
 
-    2005-01-26	Benedikt Meurer <benny@xfce.org>
+    2005-01-26      Benedikt Meurer <benny@xfce.org>
     
-    	* ChangeLog.pre-4.2.0: This file now contains the change log messages
-    	  generated by cvs2cl. Do NOT ever run cvs2cl in libxfce4util/ again!
-    	* autogen.sh: Use xdt-autogen (from the xfce4-dev-tools package).
-    	* m4/: Removed, those files are now included with the xfce4-dev-tools
-    	  packages.
-    	* configure.ac: Use new macros. Bumped version to 4.3.0. Bumped
-    	  shared object major version to 2.
-    	* Makefile.am: Include the old ChangeLog file with dists. Removed
-    	  obsolete sub directory m4. Removed obsolete aclocal flags.
-    	* libxfce4util.spec.in: Removed m4/ directory from the files section.
+            * ChangeLog.pre-4.2.0: This file now contains the change log messages
+              generated by cvs2cl. Do NOT ever run cvs2cl in libxfce4util/ again!
+            * autogen.sh: Use xdt-autogen (from the xfce4-dev-tools package).
+            * m4/: Removed, those files are now included with the xfce4-dev-tools
+              packages.
+            * configure.ac: Use new macros. Bumped version to 4.3.0. Bumped
+              shared object major version to 2.
+            * Makefile.am: Include the old ChangeLog file with dists. Removed
+              obsolete sub directory m4. Removed obsolete aclocal flags.
+            * libxfce4util.spec.in: Removed m4/ directory from the files section.
     
     
     (Old svn revision: 916)
@@ -5747,9 +5928,9 @@ Date:   Wed Apr 9 20:39:42 2003 +0000
 
     Improved debug.m4:
     
-    	1) --disable-debug no longer disables assert()'s
-    	2) --enable-profiling now enables profiling code
-    	3) --disable-asserts allows disabling of assert()'s
+            1) --disable-debug no longer disables assert()'s
+            2) --enable-profiling now enables profiling code
+            3) --disable-asserts allows disabling of assert()'s
     
     
     (Old svn revision: 689)

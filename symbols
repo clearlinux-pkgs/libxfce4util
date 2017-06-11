@@ -11,6 +11,7 @@ libxfce4util.so.7:xfce_get_userdir
 libxfce4util.so.7:xfce_get_userfile_r
 libxfce4util.so.7:xfce_gethostname
 libxfce4util.so.7:xfce_kiosk_free
+libxfce4util.so.7:xfce_kiosk_get_type
 libxfce4util.so.7:xfce_kiosk_new
 libxfce4util.so.7:xfce_kiosk_query
 libxfce4util.so.7:xfce_locale_match
