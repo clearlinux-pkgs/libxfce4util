@@ -1,3 +1,65 @@
+commit 25cf4ef6b157193de66a60ea0eb2fce05ad9c33e
+Author: Eric Koegel <eric.koegel@gmail.com>
+Date:   Sat Jun 24 10:50:35 2017 +0300
+
+    Add a super basic python example
+
+commit a634b5518d20d45a187ca69adb204c57e8bf9e9f
+Author: Eric Koegel <eric.koegel@gmail.com>
+Date:   Sat Jun 24 11:21:58 2017 +0300
+
+    Improve gobject-introspection annotations
+
+commit fe0c33b2d9d69dc06dcd98761031b1e530663f27
+Author: Romain B <skunnyk@alteroot.org>
+Date:   Fri Jun 16 14:40:36 2017 +0200
+
+    Fix duplicate DISTCHECK_CONFIGURE_FLAGS
+    
+    Signed-off-by: Eric Koegel <eric.koegel@gmail.com>
+
+commit 33ecc368ce31184ab2456b705ec15722d1612cb6
+Author: Romain B <skunnyk@alteroot.org>
+Date:   Fri Jun 16 14:30:11 2017 +0200
+
+    Fix some autotools warnings, default debug to yes
+    
+    - Use AC_LANG_SOURCE with correct syntax to remove no AC_LANG_SOURCE
+    call detected in body warning ( https://autotools.io/forwardporting/autoconf.html )
+    - Fix IT_PROG_INTLTOOL([0.35.0]) warning
+    - Default to enable-debug=yes instead of full to avoid deprecation errors in make distcheck
+    
+    Signed-off-by: Eric Koegel <eric.koegel@gmail.com>
+
+commit cfd26455a732d955509e0e0f75d0b6b741e23ca7
+Author: Eric Koegel <eric.koegel@gmail.com>
+Date:   Tue Jun 13 03:20:02 2017 +0300
+
+    Allow everyone to build introspection files (Bug #13638)
+    
+    Move the introspection building outside of maintainer mode so
+    everyone can use it.
+
+commit 0f730998ee26af2a4b11498db014374f7dba0e64
+Author: Unit 193 <unit193@ubuntu.com>
+Date:   Sun Jun 11 18:49:38 2017 -0400
+
+    Fix a minor typo: ment → meant
+    
+    Signed-off-by: Eric Koegel <eric.koegel@gmail.com>
+
+commit 621dae5512b71a7213a0a8da7f8102206fbccc29
+Author: Eric Koegel <eric.koegel@gmail.com>
+Date:   Sun Jun 11 17:18:56 2017 +0300
+
+    Post release tag bump
+
+commit 4cd65b60ea74af9c9d0625adf0b8ffa1d9698349
+Author: Eric Koegel <eric.koegel@gmail.com>
+Date:   Sun Jun 11 17:15:54 2017 +0300
+
+    Updates for release.
+
 commit 54718ec9fea26192b86cf777f33b9a4ba6c795c9
 Author: Eric Koegel <eric.koegel@gmail.com>
 Date:   Sun Jun 11 16:59:59 2017 +0300
