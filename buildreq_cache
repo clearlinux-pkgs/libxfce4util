@@ -1,4 +1,5 @@
-4.13.2
+4.13.3
+glibc-bin
 gobject-introspection-dev
 perl
-glibc-bin
+vala

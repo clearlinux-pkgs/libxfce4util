@@ -29,6 +29,7 @@ libxfce4util.so.7:xfce_rc_get_entries
 libxfce4util.so.7:xfce_rc_get_group
 libxfce4util.so.7:xfce_rc_get_groups
 libxfce4util.so.7:xfce_rc_get_locale
+libxfce4util.so.7:xfce_rc_get_type
 libxfce4util.so.7:xfce_rc_has_entry
 libxfce4util.so.7:xfce_rc_has_group
 libxfce4util.so.7:xfce_rc_is_dirty

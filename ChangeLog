@@ -1,3 +1,269 @@
+commit 80d12e88801b92a2b2206d7d2c8db5d0d2d448e3
+Author: Romain Bouvier <skunnyk@alteroot.org>
+Date:   Thu May 16 14:01:44 2019 +0200
+
+    Update for release
+
+commit 508e03c2f25504db3e945eb2fd6b6db268aae71f
+Author: Romain Bouvier <skunnyk@alteroot.org>
+Date:   Thu May 16 13:55:15 2019 +0200
+
+    Cleanup autotools files
+    
+    - Update AUTHORS, README and THANKS to remove obsoletes informations
+    - Cleanup the configure.ac.in : remove obsoletes macros and uesless checks
+
+commit 8e34250394106044ed4b012c71cfc7cadc90f32d
+Author: Anonymous <noreply@xfce.org>
+Date:   Sat May 11 06:30:27 2019 +0200
+
+    I18n: Add new translation ie (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 2f9173bfd4aeb16aec6aed8343e2f726f470f25f
+Author: Sveinn í Felli <sv1@fellsnet.is>
+Date:   Fri May 10 18:30:50 2019 +0200
+
+    I18n: Update translation is (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit cc91edfc9334fa34f2f5283322f2490f2078e49e
+Author: Anonymous <noreply@xfce.org>
+Date:   Fri May 10 18:30:50 2019 +0200
+
+    I18n: Update translation da (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 94306dee7acbc0c9f0256c76704de0a7af87c200
+Author: Nick Schermer <nick@xfce.org>
+Date:   Wed May 8 19:15:38 2019 +0200
+
+    I18n: Update translation uk (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit fc44682adc65b449bf6af497e8c3ef12e2581686
+Author: Nick Schermer <nick@xfce.org>
+Date:   Wed May 8 19:15:38 2019 +0200
+
+    I18n: Update translation sk (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 4cccd6fd9ef40374e35e7c2980f1070cec001cae
+Author: Dumitru Moldovan <dumol@gnome.org>
+Date:   Wed May 8 19:15:37 2019 +0200
+
+    I18n: Update translation ro (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit f7f3b35d6f0e35cf8afef439955433f1dd3d63cc
+Author: Anonymous <noreply@xfce.org>
+Date:   Wed May 8 19:15:36 2019 +0200
+
+    I18n: Update translation lt (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 3e3d22b52cd195ee0319d9aa83a72e7ddd1cbefb
+Author: Baurzhan Muftakhidinov <baurthefirst@gmail.com>
+Date:   Wed May 8 19:15:36 2019 +0200
+
+    I18n: Update translation kk (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit f90a20779630e9d848ae2315b0dd703e91bea335
+Author: Emanuele Petriglia <transifex@emanuelepetriglia.com>
+Date:   Wed May 8 19:15:35 2019 +0200
+
+    I18n: Update translation it (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 9687aa4b2836f4c5c4e8b818bf16d8a1e9a7484a
+Author: Elishai Eliyahu <e1907@mm.st>
+Date:   Wed May 8 19:15:35 2019 +0200
+
+    I18n: Update translation he (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 62b1f1dbfb758db4e89e6b0fa6ce6c1a484c4423
+Author: Anonymous <noreply@xfce.org>
+Date:   Wed May 8 19:15:35 2019 +0200
+
+    I18n: Update translation gl (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit c667b650ff01c38cf69a0370e52e1dee071e549a
+Author: Charles Monzat <c.monzat@laposte.net>
+Date:   Wed May 8 19:15:34 2019 +0200
+
+    I18n: Update translation fr (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit c6e3316788a7b276853fedf90a8d59f6e4f5ceb4
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Thu Apr 18 00:17:49 2019 -0300
+
+    Bump glib version
+
+commit 27cc4d52f76a2470b1fb834f1588c1b9d28c5eb8
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Mon Apr 15 23:40:33 2019 -0300
+
+    Fix compiler error -Wcast-function-type (GCC 8)
+
+commit 2e25eaf07c96f390747327154194810188015d8b
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Sun Apr 14 18:37:30 2019 -0300
+
+    Fix this use of "defined" may not be portable
+
+commit 99f20b70df5a02043e14b82d693deda14804c17c
+Author: Olivier Duchateau <duchateau.olivier@gmail.com>
+Date:   Tue Jan 22 06:20:22 2019 +0100
+
+    Fix GObject Introspection language bindings
+
+commit d3d56533ddc24b17b824fcd726c6a523e211d306
+Author: Zmicer Turok <zmicerturok@gmail.com>
+Date:   Wed Jan 16 12:30:31 2019 +0100
+
+    I18n: Update translation be (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 2854f9841cac56a06c75ff5f8e8a0f9f1ef20c6f
+Author: Pavel Borecki <pavel.borecki@gmail.com>
+Date:   Fri Jan 11 12:30:24 2019 +0100
+
+    I18n: Update translation cs (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 5b23e5190b0ac90793344d720044711413743c2d
+Author: Igor <f2404@yandex.ru>
+Date:   Mon Sep 17 12:23:21 2018 -0400
+
+    Add support for rc files as symlinks
+    
+    This prevents a symlink from being overwritten with an actual file contents.
+    Instead, the symlink is preserved, and its target gets updated.
+    
+    Fixes bug #14698
+
+commit 570680c487fb92897e4974f84294457f0442ab4a
+Author: Nick Schermer <nick@xfce.org>
+Date:   Fri Sep 14 06:33:22 2018 +0200
+
+    I18n: Update translation ug (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit bcf44e5f9a0cb9d360e131cac31aab44d5add1b9
+Author: Саша Петровић <salepetronije@gmail.com>
+Date:   Fri Sep 14 06:33:22 2018 +0200
+
+    I18n: Update translation sr (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit ffb03fca96c2562da2092b78b8e28664db38ef52
+Author: Cédric Valmary <cvalmary@yahoo.fr>
+Date:   Fri Sep 14 06:33:22 2018 +0200
+
+    I18n: Update translation oc (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 7d5ff0c77d2c69ba918b5ba2a9318f87bb1d553d
+Author: Allan Nordhøy <epost@anotheragency.no>
+Date:   Fri Sep 14 06:33:21 2018 +0200
+
+    I18n: Update translation nb (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit b650e7a64fbc6f9663eb19bb6e26459187ca5f4e
+Author: Puretech <terjemah.puretech@gmail.com>
+Date:   Fri Sep 14 06:33:21 2018 +0200
+
+    I18n: Update translation ms (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 0f61c2116abc5c537b18d5dc303b50ced01536bb
+Author: Nick Schermer <nick@xfce.org>
+Date:   Fri Sep 14 06:33:21 2018 +0200
+
+    I18n: Update translation ar (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 7b731799971aa06c73491745e287a4d772736f4f
+Author: Pavel Borecki <pavel.borecki@gmail.com>
+Date:   Thu Aug 2 12:30:32 2018 +0200
+
+    I18n: Update translation cs (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit c3c2f93489e9c2ee25fed225b5f59ed65ecb06b7
+Author: Romain B <skunnyk@alteroot.org>
+Date:   Sun Jun 17 00:40:42 2018 +0200
+
+    Back to development
+
 commit 63a62d9904af287636600c7016512366c87a403e
 Author: Romain B <skunnyk@alteroot.org>
 Date:   Sun Jun 10 20:14:05 2018 +0200
