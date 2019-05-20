@@ -4,7 +4,7 @@
 #
 Name     : libxfce4util
 Version  : 4.13.3
-Release  : 22
+Release  : 23
 URL      : http://archive.xfce.org/src/xfce/libxfce4util/4.13/libxfce4util-4.13.3.tar.bz2
 Source0  : http://archive.xfce.org/src/xfce/libxfce4util/4.13/libxfce4util-4.13.3.tar.bz2
 Summary  : Basic utility non-GUI functions for Xfce
@@ -16,6 +16,7 @@ Requires: libxfce4util-lib = %{version}-%{release}
 Requires: libxfce4util-license = %{version}-%{release}
 Requires: libxfce4util-locales = %{version}-%{release}
 BuildRequires : docbook-xml
+BuildRequires : glibc-bin
 BuildRequires : gobject-introspection-dev
 BuildRequires : gtk-doc
 BuildRequires : gtk-doc-dev
@@ -114,7 +115,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1558026345
+export SOURCE_DATE_EPOCH=1558341500
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
 export NM=gcc-nm
@@ -133,7 +134,7 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1558026345
+export SOURCE_DATE_EPOCH=1558341500
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/libxfce4util
 cp COPYING %{buildroot}/usr/share/package-licenses/libxfce4util/COPYING
