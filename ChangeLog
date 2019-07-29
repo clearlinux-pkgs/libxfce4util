@@ -1,3 +1,35 @@
+commit 2778b75b1f3a2993757cdb7c909bd95990360ec9
+Author: Kjell Cato Heskjestad <cato@heskjestad.xyz>
+Date:   Wed Jul 24 12:30:40 2019 +0200
+
+    I18n: Update translation nb (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 5143acb2dace4fcfb71b18cae322322a7abf7b4d
+Author: Real School <translator_students@realschool.am>
+Date:   Mon Jul 8 12:30:38 2019 +0200
+
+    I18n: Add new translation hy (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit c198d559cd461f222c842554e1a68fa70333fd11
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Sun Jun 30 23:15:35 2019 +0200
+
+    Back to development
+
+commit 99d8ea28a6900ad081a53419fc1a2006bfea0220
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Sun Jun 30 23:13:52 2019 +0200
+
+    Updates for release
+
 commit 1ff0ae99915c359881d011261eaaa35167e04104
 Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
 Date:   Sun Jun 30 23:06:28 2019 +0200
