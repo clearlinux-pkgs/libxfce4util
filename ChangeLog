@@ -1,3 +1,21 @@
+commit 587e8cabcf799464eadf58cbb4e796e1f979c9ff
+Author: Romain Bouvier <skunnyk@alteroot.org>
+Date:   Sun Aug 11 17:29:35 2019 +0200
+
+    Bump the xfce version to 4.14
+
+commit 1007428055e1721ede836c32c8d022e4501d510f
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Sun Jul 28 17:14:10 2019 +0200
+
+    Back to development
+
+commit 65ef9f27f3bf57c41f8cfe2529b540b626513fa1
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Sun Jul 28 17:12:27 2019 +0200
+
+    Updates for release
+
 commit 2778b75b1f3a2993757cdb7c909bd95990360ec9
 Author: Kjell Cato Heskjestad <cato@heskjestad.xyz>
 Date:   Wed Jul 24 12:30:40 2019 +0200
