@@ -1,3 +1,91 @@
+commit d25695e99d6b9a1464351a7ce8685027df1164cf
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Mon Jan 13 21:10:25 2020 +0100
+
+    Bump Xfce version to 4.15
+
+commit 0340d9ab6924762e42625600bfb57f7c11a58c4c
+Author: Besnik <besnik@programeshqip.org>
+Date:   Wed Jan 8 00:30:34 2020 +0100
+
+    I18n: Update translation sq (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 1c5eeae65662f657bb847fa63fbf8dcbb04401d0
+Author: Toni Estévez <toni.estevez@gmail.com>
+Date:   Sun Nov 17 18:30:17 2019 +0100
+
+    I18n: Update translation es (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit af15c52eb990d6ed5375ba2b0a35371b01b42160
+Author: Arnold Marko <arnold.marko@gmail.com>
+Date:   Fri Oct 25 00:30:12 2019 +0200
+
+    I18n: Add new translation sl (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 91524950bc9493b662932cf27a810d93db9ec314
+Author: Daniel Muñiz Fontoira <dani@damufo.com>
+Date:   Fri Aug 30 12:30:19 2019 +0200
+
+    I18n: Update translation gl (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit e13175481db795f1a2b6e32543ac1729146ebad7
+Author: Daniel Muñiz Fontoira <dani@damufo.com>
+Date:   Fri Aug 23 18:30:23 2019 +0200
+
+    I18n: Update translation gl (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 6cee600d738a7501622b308761ba794caba95f0b
+Author: Panwar108 <caspian7pena@gmail.com>
+Date:   Sun Aug 18 12:30:19 2019 +0200
+
+    I18n: Add new translation hi (57%).
+    
+    4 translated messages, 3 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 1dd1c4bf39276d2ffbba45c86323905abdec9ff0
+Author: Daniel Muñiz Fontoira <dani@damufo.com>
+Date:   Sat Aug 17 00:30:33 2019 +0200
+
+    I18n: Update translation gl (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit b5739e91311100f46613ecb062bef7d2a9702420
+Author: Romain Bouvier <skunnyk@alteroot.org>
+Date:   Sun Aug 11 18:01:34 2019 +0200
+
+    Back to development
+
+commit dd26ec9bada8ef20123d51bf09b3ca14e7d1e92a
+Author: Romain Bouvier <skunnyk@alteroot.org>
+Date:   Sun Aug 11 17:58:16 2019 +0200
+
+    Update for 4.14.0
+
 commit 587e8cabcf799464eadf58cbb4e796e1f979c9ff
 Author: Romain Bouvier <skunnyk@alteroot.org>
 Date:   Sun Aug 11 17:29:35 2019 +0200
