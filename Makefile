@@ -1,5 +1,5 @@
 PKG_NAME := libxfce4util
-URL = http://archive.xfce.org/src/xfce/libxfce4util/4.15/libxfce4util-4.15.0.tar.bz2
+URL = http://archive.xfce.org/src/xfce/libxfce4util/4.15/libxfce4util-4.15.1.tar.bz2
 ARCHIVES = 
 
 include ../common/Makefile.common

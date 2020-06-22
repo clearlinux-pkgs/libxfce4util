@@ -1,3 +1,149 @@
+commit 5c6e8bdd5f6eb9ff5b61043aba76c25137e0393d
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Sun Jun 21 23:45:54 2020 +0200
+
+    docs: Unhide the misc utils section
+
+commit e95abca8ad3e3aa7bff359533e9171e633e13828
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Sun Jun 21 23:38:10 2020 +0200
+
+    Add new API to docs
+
+commit adced584fce135d6c8d8c61f764e8e81b793fc4d
+Author: Tamaranch <138-Tamaranch@users.noreply.gitlab.xfce.org>
+Date:   Sun Jun 7 21:17:23 2020 +0200
+
+    Add field codes expansion and related utilities
+
+commit b4f7a69bbaf23298480234a70d74cc1a66551bac
+Author: Panwar108 <caspian7pena@gmail.com>
+Date:   Sun Jun 14 00:45:16 2020 +0200
+
+    I18n: Update translation hi (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit df9736850ae3bbec13a90e8ed920c6b4fec01733
+Author: Arman Harutyunyan <arman.harut468@gmail.com>
+Date:   Thu Jun 4 00:45:23 2020 +0200
+
+    I18n: Update translation hy_AM (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 20c34f4f227b5b53b47034ba1d0cac31f4eebd5f
+Author: Real School <localization@ehayq.am>
+Date:   Mon May 25 12:45:44 2020 +0200
+
+    I18n: Add new translation hye (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit d211f0b0596d675134ad39852835a598011af9a0
+Author: Vincenzo Reale <vinx.reale@gmail.com>
+Date:   Fri May 22 00:45:33 2020 +0200
+
+    I18n: Update translation it (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 9440e86694a525ece24303394166908687cc5b2b
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Mon May 11 23:16:57 2020 +0200
+
+    Add basic GitLab pipeline
+
+commit 2b900bdd0e3bf1756cffb2a12229d7a910e8c0f1
+Author: Ignacio Poggi <ignaciop.3@gmail.com>
+Date:   Fri May 1 00:14:32 2020 +0200
+
+    I18n: Update translation es (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 38a5b884d522da3eea34fa6bf97d8a76a2be87b2
+Author: Ignacio Poggi <ignaciop.3@gmail.com>
+Date:   Sun Apr 26 00:10:15 2020 +0200
+
+    I18n: Update translation es (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 46c03caca7b8c01ab29420731a8267fe29d7c1cb
+Author: U A <u.almasov@gmail.com>
+Date:   Tue Apr 14 23:47:19 2020 +0200
+
+    I18n: Update translation uz (57%).
+    
+    4 translated messages, 3 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 4080ebcf2575186f8c15b9f71665ffcfbb8e5281
+Author: enolp <enolp@softastur.org>
+Date:   Tue Apr 14 23:47:14 2020 +0200
+
+    I18n: Update translation ast (57%).
+    
+    4 translated messages, 3 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 56e9c3c4b6359a010682cc59ab0dbfb39c7aaf0b
+Author: enolp <enolp@softastur.org>
+Date:   Mon Mar 16 06:30:18 2020 +0100
+
+    I18n: Update translation ast (57%).
+    
+    4 translated messages, 3 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit fd74af88eca4bd116a050f1dee6e03018f76f0af
+Author: Zmicer Turok <nashtlumach@gmail.com>
+Date:   Sat Feb 29 12:30:17 2020 +0100
+
+    I18n: Update translation be (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit bbf9317ce66b5a7c4ab10c361216349cb09fcadf
+Author: Besnik <besnik@programeshqip.org>
+Date:   Tue Jan 28 12:30:18 2020 +0100
+
+    I18n: Update translation sq (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit bb9519285f43a32c5958233351c057d483916503
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Tue Jan 14 00:11:31 2020 +0100
+
+    Back to development
+
+commit feb95eea4274e7f0c58cc6e1cc08aed40cd9906a
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Tue Jan 14 00:10:05 2020 +0100
+
+    Updates for release
+
 commit d25695e99d6b9a1464351a7ce8685027df1164cf
 Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
 Date:   Mon Jan 13 21:10:25 2020 +0100
