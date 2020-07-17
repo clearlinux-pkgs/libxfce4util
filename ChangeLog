@@ -1,3 +1,21 @@
+commit ef141ddab2edc041e0bb9e3f6c84f0601721ad52
+Author: Tamaranch <138-Tamaranch@users.noreply.gitlab.xfce.org>
+Date:   Wed Jul 8 12:19:31 2020 +0200
+
+    Complete the field codes expansion
+
+commit 67cc09936cee126c334cb0de55fef159a833a0ff
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Sun Jun 21 23:50:45 2020 +0200
+
+    Back to development
+
+commit 668e7bf0aab882289262ac0f5d96593ddf9bc278
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Sun Jun 21 23:49:18 2020 +0200
+
+    Updates for release
+
 commit 5c6e8bdd5f6eb9ff5b61043aba76c25137e0393d
 Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
 Date:   Sun Jun 21 23:45:54 2020 +0200
