@@ -1,3 +1,21 @@
+commit 2fe428a0687d0bbcac8d2759bcf125b58d9478de
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Fri Aug 14 01:49:58 2020 +0200
+
+    Version bump in preparation of 4.16pre1
+
+commit e47529464365d2d6fc581ccbb02d6d834feb9331
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Fri Jul 17 00:03:44 2020 +0200
+
+    Back to development
+
+commit f1ccb9ec39e1a4fd0a6afbf211640dc6c43c418a
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Fri Jul 17 00:02:19 2020 +0200
+
+    Updates for release
+
 commit ef141ddab2edc041e0bb9e3f6c84f0601721ad52
 Author: Tamaranch <138-Tamaranch@users.noreply.gitlab.xfce.org>
 Date:   Wed Jul 8 12:19:31 2020 +0200
