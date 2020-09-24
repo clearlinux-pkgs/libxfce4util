@@ -4,7 +4,7 @@
 #
 Name     : libxfce4util
 Version  : 4.15.3
-Release  : 30
+Release  : 31
 URL      : http://archive.xfce.org/src/xfce/libxfce4util/4.15/libxfce4util-4.15.3.tar.bz2
 Source0  : http://archive.xfce.org/src/xfce/libxfce4util/4.15/libxfce4util-4.15.3.tar.bz2
 Summary  : Utility library for the Xfce 4 desktop environment
