@@ -1,3 +1,71 @@
+commit f5330e4dc6233606bb8de2c7f0eed71a068361cf
+Author: Nick Schermer <nick@xfce.org>
+Date:   Fri Oct 16 18:15:28 2020 +0200
+
+    I18n: Update translation ug (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit edf362cc46d783f79982591228ace5abda695e93
+Author: Besnik Bleta <besnik@programeshqip.org>
+Date:   Fri Oct 16 18:15:28 2020 +0200
+
+    I18n: Update translation sq (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 3ecc6aa5c06b396c8a2a0d86235585a1933bf898
+Author: Nick Schermer <nick@xfce.org>
+Date:   Fri Oct 16 18:15:28 2020 +0200
+
+    I18n: Update translation sk (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 3f8115eb149fc3eb6c347411c99e70ece04de371
+Author: Real School <localization@ehayq.am>
+Date:   Fri Oct 16 18:15:26 2020 +0200
+
+    I18n: Update translation hy (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit cfb978cd3f049b5494389f34ba5982fe0d660c3d
+Author: Elishai Eliyahu <elishai@mailfence.com>
+Date:   Fri Oct 16 18:15:25 2020 +0200
+
+    I18n: Update translation he (100%).
+    
+    7 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 826686480b396a5ff6f83472e250c649071147f4
+Author: Kevin Bowen <kevin.bowen@gmail.com>
+Date:   Tue Sep 1 08:02:28 2020 +0200
+
+    Create README.md
+
+commit ea46c1a5f5a3d712ce4fb701f30b733043a7a52f
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Fri Aug 28 00:10:31 2020 +0200
+
+    Back to development
+
+commit bfbb51045e53eb45161434d761c7eaf3df3e2df2
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Thu Aug 27 23:23:45 2020 +0200
+
+    Updates for release
+
 commit 2fe428a0687d0bbcac8d2759bcf125b58d9478de
 Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
 Date:   Fri Aug 14 01:49:58 2020 +0200
