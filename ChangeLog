@@ -1,3 +1,27 @@
+commit e0bc76f690bbaa9669e57ab26bada5b1ffe68f30
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Fri Nov 20 00:28:59 2020 +0100
+
+    Bump Xfce version to 4.16pre2
+
+commit 0ad163660e6e44808c2123e369a9c0877bb0abfa
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Fri Nov 13 01:36:07 2020 -0300
+
+    Add README.md to EXTRA_DIST
+
+commit 5db4a348bbe4b13314e2bb9f8bc07b3f333e140d
+Author: Andre Miranda <andre42m@gmail.com>
+Date:   Mon Nov 2 21:50:21 2020 -0300
+
+    Back to development
+
+commit 0b8985a00dc4dfecd8195c25001deef07722de56
+Author: Andre Miranda <andre42m@gmail.com>
+Date:   Mon Nov 2 21:45:07 2020 -0300
+
+    Updates for release
+
 commit f5330e4dc6233606bb8de2c7f0eed71a068361cf
 Author: Nick Schermer <nick@xfce.org>
 Date:   Fri Oct 16 18:15:28 2020 +0200
