@@ -1,3 +1,56 @@
+commit bd908e93a6c8d4d5d5f18d24a27de352e16fc1a9
+Author: Romain Bouvier <skunnyk@alteroot.org>
+Date:   Fri Dec 11 17:24:38 2020 +0100
+
+    Update configure.ac.in syntax
+
+commit df662e6524fc2bfa6903c82baab9a754b1442663
+Author: Romain Bouvier <skunnyk@alteroot.org>
+Date:   Fri Dec 11 17:20:20 2020 +0100
+
+    Namespace of the gir needs capital first letter
+    
+    - This will help vapigen to find correct namespace
+    - Update m4/introspection.m4
+    - Update .gitignore
+    - Remove unused vapi metadata file
+    - See https://gi.readthedocs.io/en/latest/buildsystems/autotoolsintegration.html
+
+commit d1a8892c3b4c3da3ad4ed9d229184781555461c1
+Author: Alexander Schwinn <alexxcons@xfce.org>
+Date:   Tue Dec 8 22:45:30 2020 +0100
+
+    bump glib (and gio, gthread, etc) minimum to 2.50.0
+    
+    As agreed on the 4.16 roadmap
+
+commit 5f3a667c7c5ae18d487b734cc515002f581fce0b
+Author: Landry Breuil <landry@openbsd.org>
+Date:   Fri Nov 20 17:59:36 2020 +0100
+
+    remove typedef already defined by G_DECLARE_FINAL_TYPE macro (fixes #4)
+    
+    building with clang yields this warning on OpenBSD:
+    
+    In file included from /usr/local/include/xfce4/libxfce4util/libxfce4util.h:33:
+    /usr/local/include/xfce4/libxfce4util/xfce-kiosk.h:37:27: warning: redefinition of typedef 'XfceKiosk' is a C11 feature [-Wtypedef-redefinition]
+    typedef struct _XfceKiosk XfceKiosk;
+                              ^
+    /usr/local/include/xfce4/libxfce4util/xfce-kiosk.h:35:23: note: previous definition is here
+    G_DECLARE_FINAL_TYPE (XfceKiosk, xfce_kiosk, XFCE, KIOSK, GObject)
+
+commit fda5200c2551e2b1ee95c26aacb94ac825c55430
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Sat Nov 21 16:17:34 2020 +0100
+
+    Back to development
+
+commit 34860517fb64630a99daa39972cdf54dc1f17f8d
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Sat Nov 21 16:16:21 2020 +0100
+
+    Updates for release
+
 commit e0bc76f690bbaa9669e57ab26bada5b1ffe68f30
 Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
 Date:   Fri Nov 20 00:28:59 2020 +0100
