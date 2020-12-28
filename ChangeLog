@@ -1,3 +1,33 @@
+commit ea6c56a668cbd1055b0acaa65466fd163e02b651
+Author: Romain Bouvier <skunnyk@alteroot.org>
+Date:   Tue Dec 22 21:22:33 2020 +0100
+
+    Updates for release
+
+commit 3084615fe0526f590aa5251f5ed296be4a513f0b
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Sat Dec 19 22:51:49 2020 +0100
+
+    Prepare for 4.16 final release
+
+commit 082be333f9463a749e89ec53cb92dfb59c59a9d2
+Author: Gaël Bonithon <gael@xfce.org>
+Date:   Sat Dec 5 15:34:30 2020 +0100
+
+    Properly handle URI schemes other than "file"
+
+commit 78700e077ae66f8267644ba0a5e6927eef7250c7
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Sun Dec 13 20:30:33 2020 +0100
+
+    Back to development
+
+commit f493060f23cc6ef7d175cc83dc872d0f5f778357
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Sun Dec 13 20:29:50 2020 +0100
+
+    Updates for release
+
 commit bd908e93a6c8d4d5d5f18d24a27de352e16fc1a9
 Author: Romain Bouvier <skunnyk@alteroot.org>
 Date:   Fri Dec 11 17:24:38 2020 +0100
