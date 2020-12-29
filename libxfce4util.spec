@@ -4,9 +4,9 @@
 #
 Name     : libxfce4util
 Version  : 4.16.0
-Release  : 35
-URL      : http://archive.xfce.org/src/xfce/libxfce4util/4.16/libxfce4util-4.16.0.tar.bz2
-Source0  : http://archive.xfce.org/src/xfce/libxfce4util/4.16/libxfce4util-4.16.0.tar.bz2
+Release  : 36
+URL      : https://archive.xfce.org/src/xfce/libxfce4util/4.16/libxfce4util-4.16.0.tar.bz2
+Source0  : https://archive.xfce.org/src/xfce/libxfce4util/4.16/libxfce4util-4.16.0.tar.bz2
 Summary  : Utility library for the Xfce 4 desktop environment
 Group    : Development/Tools
 License  : LGPL-2.0
@@ -106,7 +106,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1609173885
+export SOURCE_DATE_EPOCH=1609285435
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -126,7 +126,7 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1609173885
+export SOURCE_DATE_EPOCH=1609285435
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/libxfce4util
 cp %{_builddir}/libxfce4util-4.16.0/COPYING %{buildroot}/usr/share/package-licenses/libxfce4util/83ba6546e00f890f3a26a9bedd264084f8527d5e
