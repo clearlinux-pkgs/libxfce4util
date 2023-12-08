@@ -1,4 +1,5 @@
 4.18.1
 gobject-introspection-dev
 perl
+perl(Getopt::Long)
 vala
